@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <h1>TIMER</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter date</th>
+                <th>Enter time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date"></td>
+                <td><input type="time" id="time"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div  class="countdown" id="countdowns">
+        <div>
+            <p class="heading">Day</p>
+            <div class="time" id="countdown-days">0</div>
+        </div>
+        <div>
+            <p class="heading">Hours</p>
+            <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div>
+            <p class="heading">minutes</p>
+            <div class="time" id="countdown-minutes">0</div>
+        </div>
+        <div>
+            <p class="heading">Seconds</p>
+            <div class="time" id="countdown-seconds">0</div>
+        </div>
+    </div>
+    <button id="calculate">Calculate</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Rest</button>
+
+    <audio id="alarm-sound" src="audio.mp3"></audio>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

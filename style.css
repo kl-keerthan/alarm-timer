@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+h1{
+    padding: 10px;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    min-width: 100px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 10px;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.time{
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    width: 130px;
+    margin: 0 10px 0 10px;
+}
+
+.dark{
+    /* display: flex; */
+    /* float: right; */
+    /* margin-right: 20px; */
+}
